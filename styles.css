@@ -1,0 +1,143 @@
+body{
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  background-color: #E0E8FF;
+}
+
+h1{
+  font-family: 'Red Hat Display', sans-serif;
+}
+p{
+  font-size: 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+span{
+  font-size: 1rem;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.background-img{
+  height: 300px;
+  width: 1350px;
+}
+
+.container{
+  margin-top: 70px;
+}
+.main-container{
+  background-color: #ffffff;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  border-style: hidden;
+  border-radius: 15px;
+}
+
+.inner-container{
+  background-color: #F5F7FF;
+  border-radius: 15px;
+  width: 75%;
+  margin: 40px auto 20px auto;
+}
+
+.inner-inner-container{
+  width: 75%;
+    margin: 20px auto 20px auto;
+  text-align: left;
+
+}
+.music{
+  float: left;
+  margin-top: 8px;
+}
+
+.text{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0;
+  line-height: 2rem;
+  margin-left: 15px;
+}
+
+.change{
+  float: right;
+  margin-left: 60px;
+  position: absolute;
+  top: 465px;
+  color: #3829E0;
+}
+
+.change:hover {
+  color: #3E52A3;
+}
+
+.desc{
+  width: 75%;
+  margin: auto;
+  color: #7280A7;
+}
+.hero{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 400px;
+}
+
+.plan{
+  position: relative;
+}
+.price{
+  color: #76778b;
+}
+
+.buttons{
+  align-items: center;
+}
+
+.order{
+  display: flex;
+    color: #76778b;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.order:hover{
+  color: #212a47;
+}
+.attribution {
+  margin-top: 25px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+.btn {
+  width: 200px;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 7px 8px #E0E8FF;
+  -moz-box-shadow: 0px 7px 8px #E0E8FF;
+  box-shadow: 0px 7px 8px #E0E8FF;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3829E0;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3E52A3;
+  text-decoration: none;
+}
